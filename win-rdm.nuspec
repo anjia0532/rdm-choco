@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>win-rdm</id>
+    <version>2021.5</version>
+    <title>RedisDesktopManager Windows (Install)</title>
+    <authors>lework uglide</authors>
+    <owners>anjia0532</owners>
+    <packageSourceUrl>https://github.com/anjia0532/rdm-choco</packageSourceUrl>
+    <projectUrl>https://github.com/lework/RedisDesktopManager-Windows/</projectUrl>
+    <licenseUrl>https://github.com/lework/RedisDesktopManager-Windows/blob/master/LICENSE</licenseUrl>
+    <iconUrl>https://raw.githubusercontent.com/anjia0532/rdm-choco/main/logo.png</iconUrl>
+    <docsUrl>https://docs.rdm.dev/en/latest/quick-start/</docsUrl>
+    <!-- <mailingListUrl>anjia0532@gmail.com</mailingListUrl> -->
+    <bugTrackerUrl>https://github.com/anjia0532/rdm-choco/issues/new</bugTrackerUrl>
+    <releaseNotes>
+    ### 2021.5
+    #### New features
+    - Beta: Support For Apple Silicon (M1 Chip) ARM #4935
+    #### Fixes and Improvements
+    - Add dark mode switch for Linux and Windows
+    - Fix: Close connection properly when ValueTab is closed
+    - Re-use connections for ValueTab when possible
+    - Fix clients list parsing in Server Stats
+    </releaseNotes>
+    <tags>redis redis-gui redis-gui-client rdm</tags>
+    <summary>Open source cross-platform Desktop Manager for Redis ® based on Qt 5</summary>
+    <description>Open source cross-platform Desktop Manager for Redis ® based on Qt 5</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
